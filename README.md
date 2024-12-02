@@ -116,3 +116,50 @@ Below is the use case diagram for this booking system:
 
 ---
 
+### Acceptance Criteria
+
+**What is Acceptance Criteria?**
+
+Acceptance Criteria are a set of conditions or requirements that a feature must meet to be considered complete and accepted by the stakeholders. These criteria serve as a formal agreement between the development team and stakeholders, ensuring that the developed feature meets the specified needs and works as expected.
+
+**Importance of Acceptance Criteria in Requirement Analysis:**
+
+- **Clarifies Expectations:** Acceptance criteria provide a clear understanding of the expected functionality and behavior of the system.
+- **Ensures Quality:** By defining what "done" means, acceptance criteria help ensure the system meets the required standards of quality.
+- **Facilitates Testing:** These criteria serve as a basis for testing. QA teams use acceptance criteria to validate that the system behaves as expected.
+- **Prevents Miscommunication:** Acceptance criteria act as a contract between the stakeholders and the development team, reducing the risk of misunderstandings.
+- **Guides Development:** They help developers focus on delivering exactly what is needed and avoid unnecessary features or functionality.
+
+**How to Define Acceptance Criteria:**
+
+- **Specific and Measurable:** Acceptance criteria must be clear and measurable to ensure that developers know exactly what to deliver.
+- **Include Both Functional and Non-functional Aspects:** Criteria should cover both functional requirements (how the system should behave) and non-functional requirements (how the system should perform, such as performance and security).
+- **Use Simple Language:** Criteria should be written in simple, non-technical language that all stakeholders can understand.
+
+---
+
+#### **Example of Acceptance Criteria for the Checkout Feature in a Booking Management System:**
+
+Let’s consider the **Checkout Feature** in a Property Booking System as an example. Below are the acceptance criteria for this feature:
+
+1. **Feature:** Checkout process for booking a property.
+   - **Given** the user has selected a property and is ready to book,
+   - **When** the user proceeds to checkout,
+   - **Then** the system must display a summary of the booking, including property details, check-in and check-out dates, and total price.
+
+2. **Feature:** Payment Process.
+   - **Given** the user is on the checkout page,
+   - **When** the user enters their payment information and submits,
+   - **Then** the system must securely process the payment and display a confirmation message within 3 seconds.
+
+3. **Feature:** Email Confirmation.
+   - **Given** the user has successfully completed the booking and payment process,
+   - **When** the booking is confirmed,
+   - **Then** the system must send a confirmation email to the user with booking details within 5 minutes.
+
+4. **Feature:** Booking Confirmation Page.
+   - **Given** the user has completed the checkout process,
+   - **When** the user confirms the payment,
+   - **Then** the system must display a booking confirmation page with details such as booking reference number, property details, check-in/check-out times, and total cost.
+
+---
