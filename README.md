@@ -77,3 +77,42 @@ Requirement Analysis is a critical phase in the software development lifecycle (
    - **Scalability:** The system should be able to scale horizontally to handle increased traffic.
    - **Usability:** The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
    - **
+
+### Use Case Diagrams
+
+**What Are Use Case Diagrams?**
+
+Use case diagrams are visual representations that show the interactions between users (actors) and the system. They are used to capture and define the functionality of a system from a user's perspective. The actors are external entities that interact with the system (e.g., users, administrators), while the use cases are the functionalities that the system offers to the actors.
+
+Use case diagrams help in identifying the key functionalities and interactions of the system and provide clarity on the roles and tasks involved. These diagrams also serve as a communication tool between stakeholders and the development team.
+
+**Benefits of Use Case Diagrams:**
+
+- **Clear Visualization:** They provide a clear and simple visual representation of the system’s functionalities.
+- **Identify User Roles:** They help in identifying various types of users and their interactions with the system.
+- **Scope Clarification:** They aid in understanding and documenting the scope of the system by mapping user needs to system features.
+- **Facilitate Communication:** They make it easier for non-technical stakeholders to understand the system’s functionalities.
+
+---
+
+#### **Example: Use Case Diagram for Booking System**
+
+In this example, the use case diagram represents a **Property Booking System**, where different actors interact with the system to perform tasks like searching properties, booking a property, managing listings, etc.
+
+**Actors:**
+- **Guest:** A user who browses and searches for properties.
+- **Registered User:** A user who can register, login, and book properties.
+- **Admin:** A user who manages property listings, users, and system settings.
+
+**Use Cases:**
+- **Search Property:** Both guests and registered users can search for available properties based on filters (location, price, etc.).
+- **Book Property:** Registered users can book a property for a given date range.
+- **Login/Register:** Registered users can log in to the system or register a new account.
+- **Manage Listings:** Admins can add, update, or delete property listings.
+
+Below is the use case diagram for this booking system:
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+---
+
